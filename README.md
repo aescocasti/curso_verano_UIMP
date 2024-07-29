@@ -1,6 +1,6 @@
 # Filología digital: transcripción automática de manuscritos, colación asistida y creación de corpus textuales
 
-Este déposito contiene el material necesario para seguir el curso.
+Este déposito contiene el material necesario para seguir el curso _Filología digital: transcripción automática de manuscritos, colación asistida y creación de corpus textuales_ impartido en la Universidad Internacional Menéndez Pelayo en agosto de 2024
 
 ## Objetivos del curso
 
