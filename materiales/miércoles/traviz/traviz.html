@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>Basic Example</title>
+    <script src="traviz-min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/traviz.css"></link>
+  </head>  
+  <body>
+    <div id="containerDiv"></div>
+    <script type="text/javascript">
+	var traviz = new TRAViz("containerDiv",{
+		lineBreaks: false
+	});
+	traviz.align([{
+		edition: 'Edition 1',
+		text: 'Santander es la mejor ciudad del mundo'
+	},{
+		edition: 'Edition 2',
+		text: 'Santander no es la mejor ciudad del mundo'
+	},{
+		edition: 'Edition 3',
+		text: 'madrid es la ciudad más bonita del mundo'
+	},{
+		edition: 'Edition 4',
+		text: 'Santander es es la ciudad más bonita del mundo'
+	},{
+		edition: 'Edition 5',
+		text: 'Santander es una ciudad muy bella'
+	}]);
+	traviz.visualize();
+    </script>
+  </body>
+</html>
